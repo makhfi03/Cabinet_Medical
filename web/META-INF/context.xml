@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+    <!-- Configuration de la base de données -->
+    <Resource name="jdbc/GestionCabinetMdical"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/gestion_cabinet_medical?zeroDateTimeBehavior=convertToNull"
+              username="root"
+              password=""
+              maxActive="50"
+              maxIdle="30"
+              maxWait="10000"
+              removeAbandoned="true"
+              removeAbandonedTimeout="60"
+              logAbandoned="true"
+              validationQuery="SELECT 1"
+              testOnBorrow="true"
+              testWhileIdle="true"
+              timeBetweenEvictionRunsMillis="30000"/>
+
+    <!-- Configuration du manager de sessions -->
+    <Manager pathname=""/>
+</Context>
