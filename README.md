@@ -86,7 +86,5 @@ test : Scripts pour créer des objets de test
 
 ## 🎥 Démonstration
 
-https://drive.google.com/open?id=1Gqjr6kXjAiHCUYmWXHb46Mm8SEFZlbxW&usp=drive_copy
-
 https://github.com/user-attachments/assets/3a3a3baa-a2b0-47ec-ba7a-62b6f17587dc
 
